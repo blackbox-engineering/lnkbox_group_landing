@@ -4217,6 +4217,11 @@ td.cart-list-item-price {
 	z-index: 1;
 }
 
+.YTPOverlay {
+	background-color: black !important;
+	opacity: 0.9 !important;
+}
+
 .ytp-player-background .video-conrols {
 	position: absolute;
 	top: 0;
