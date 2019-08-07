@@ -1940,7 +1940,6 @@ textarea {
 	padding: 15px;
 	resize: vertical;
 	line-height: 20px;
-	min-height: 200px;
 }
 
 select {
