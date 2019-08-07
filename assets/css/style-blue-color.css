@@ -4235,7 +4235,7 @@ td.cart-list-item-price {
 	top: 50%;
 	left: 50%;
 	margin: -41px 0 0 -28px;
-	display: block;
+	display: none;
 	width: 56px;
 	height: 82px;
 	background: transparent url('../img/icon/yt_play_big_56x82.png') center no-repeat;
@@ -4473,6 +4473,7 @@ td.cart-list-item-price {
 	border: none;
 	background: transparent;
 	outline: none;
+  margin-top: 23px;
 }
 
 .navigation-header .navigation-toggle:after {
@@ -6047,9 +6048,11 @@ body:not(.always-mobile) .white-dropdown .navigation-bar > .dropdown:not(.featur
 	border-width: 0;
 }
 
+/*
 body:not(.always-mobile) .navigation-header .navigation-brand .brand-logo {
 	display: none;
 }
+*/
 
 }
 
@@ -7801,3 +7804,29 @@ blockquote {
 
 }
 
+@media (min-width: 10px) {
+  .navigation-header .navigation-brand {
+    float: initial;
+    margin-right: initial;
+    margin-top: initial;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .navigation-header .navigation-brand .brand-logo {
+    width: 100%;
+  }
+
+  .navigation-header .navigation-bar.navigation-bar-left {
+    float: initial;
+    text-align: center;
+  }
+
+  .navigation-header .navigation-brand {
+    margin: 5px 0 0 0;
+  }
+  .navigation-header .navigation-brand .brand-logo .logo {
+    height: 63px;
+    background-position: center;
+  }
+}
