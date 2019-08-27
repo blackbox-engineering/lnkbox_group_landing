@@ -39,6 +39,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/style-blue-color.css" />
 
+
   <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
@@ -77,7 +78,7 @@
     </nav>
   </header>
 
-  <div id="hero" class="static-header image-version window-height light-text hero-section clearfix">>
+  <div id="hero" class="static-header image-version window-height light-text hero-section clearfix parallax-window" data-parallax="scroll" data-image-src="assets/img/background/hero_bg.jpg">
     <div class="heading-bdlock align-center centered-block">
       <div class="container">
         <h1 class="editContent">Live events are <span class="highlight">evolving</span></h1>
@@ -399,6 +400,7 @@
     <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
   <!--<![endif]-->
 
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
   <script type="text/javascript" src="assets/js/jquery.appear.js"></script>
@@ -411,6 +413,7 @@
   <script type="text/javascript" src="assets/js/startuply.js"></script>
   <script type="text/javascript" src="assets/js/modal-box.js"></script>
   <script>
+    $('.parallax-window').parallax();
 		alert = function() {};
     $("#formcarry-form").submit(function(event){
       event.preventDefault()
