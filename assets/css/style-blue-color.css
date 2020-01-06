@@ -182,6 +182,10 @@ body {
 	line-height: 1.5625;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .thin {
 	font-weight: 300;
 }
